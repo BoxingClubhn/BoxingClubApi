@@ -30,5 +30,5 @@ app.use('/api/logins/', require('./rutas/loginsRoute'))
 app.use('/api/autenticacion/', require('./rutas/autenticacionRoute'));
 
 const server = app.listen(process.env.PORT, () =>
-   // console.log(`Server started http://localhost:${process.env.PORT}`)
+   console.log(`Server started http://localhost:${process.env.PORT}`)
 );
